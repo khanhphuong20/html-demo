@@ -1,0 +1,23 @@
+/* để có thể css nội dinh thì phải link ở trong thẻ html */
+/* <li>external</li> */
+/* h1{
+    color :rgb(205, 53, 53);
+    font-size:100px;
+} */
+
+/* khi sử dụng id dịnh danh cho 1 đóio tượng  */
+/* class sử dụng thuộc tính chung cho cho nhiều đối tượng khác nhau */
+#heading{
+    color :red;
+}
+.one{
+    color :green;
+}
+/* lop gia */
+:root{
+    --text--color:green;
+    --text-colo:yellow;
+}
+h1{
+    color:var(--text--colo)
+}
